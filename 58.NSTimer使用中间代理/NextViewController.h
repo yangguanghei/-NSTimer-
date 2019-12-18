@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NextViewController.h
 //  58.NSTimer使用中间代理
 //
 //  Created by 中创 on 2019/12/17.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface NextViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
